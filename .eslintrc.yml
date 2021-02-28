@@ -1,0 +1,22 @@
+---
+plugins:
+  # https://github.com/jest-community/eslint-plugin-jest
+  - jest
+
+env:
+  node: true
+  es2020: true
+
+extends:
+  - 'airbnb-base'
+  - 'plugin:jest/recommended'
+
+rules:
+  no-console: 0
+  import/extensions: 0
+  linebreak-style: 0
+  no-underscore-dangle: [2, { 'allow': ['__filename', '__dirname'] }]
+
+parserOptions:
+  ecmaVersion: 11
+  sourceType: module
