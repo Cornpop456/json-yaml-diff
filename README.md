@@ -5,5 +5,3 @@
 ```sh
 $ gendiff file1 file2 --format [json | stylish | plain]
 ```
-
-[![asciicast](https://asciinema.org/a/wq9nz2NlAeH1ydZGtcEM3DQzc.svg)](https://asciinema.org/a/wq9nz2NlAeH1ydZGtcEM3DQzc)
